@@ -1,25 +1,21 @@
 window.onload = () => {
-    lerInfos()
+    informacoes()
 }
 
-let divDetalhes = document.getElementById('detalhes')
-let btvoltar = document.getElementById('voltar')
+let div_detalhes = document.getElementById('detalhes')
+let voltar = document.getElementById('voltar')
 
-btvoltar.addEventListener('click', ()=>{
+voltar.addEventListener('click', ()=>{
     window.location.href = '../'
 })
 
 
-function lerInfos(){
-    divDetalhes.innerHTML = `
-    <img src="${localStorage.getItem('@Imagem')}">
-
-
-
+function informacoes(){
+    div_detalhes.innerHTML = `
     <h1>${localStorage.getItem('@Nome')}</h1>
+    <img src="${localStorage.getItem('@Imagem')}">
     <h2>${localStorage.getItem('@Posicao')}</h2>
-    <p>${localStorage.getItem('@Descricao')}</p>
-    <strong>Nome completo: </strong> <span> ${localStorage.getItem('@Nome')} </span>
-    
+    <strong>Nome completo: </strong> <span> ${localStorage.getItem('@NomeCompleto')} </span>
+    <p>${localStorage.getItem('@Descricao')}</p> 
     `;
 }

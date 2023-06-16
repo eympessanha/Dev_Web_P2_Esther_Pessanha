@@ -1,48 +1,34 @@
 window.onload = () => {
-    carregarJogadores()
+    loadAtleta()
 }
 
 //puxando os elementos
-let elencoFeminino = document.getElementById('elenco-feminino')
-
-let elencoMasculino = document.getElementById('elenco-masculino')
-
-
-
+let efeminino = document.getElementById('efeminino')
+let emasculino = document.getElementById('emasculino')
 
 //functions
-const carregarJogadores = () => {  
-   jogadores.forEach((jogador, indice)=>{
-        if(jogador["elenco"] == "feminino"){
-            elencoFeminino.innerHTML += `
-
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
-                <h1>${jogador["nome"]}</h1>
-                <img src="${jogador["imagem"]}">
-            </div>
-    
-            `;
-
+const loadAtleta = () => {  
+   jogadores.forEach((atleta, index)=>{
+        if(atleta["elenco"] == "feminino"){
+            efeminino.innerHTML += `
+            <div id="jogador${index}" onclick="infoAtleta(${index})">
+                <h4>${atleta["nome"]}</h4>
+                <img src="${atleta["imagem"]}">
+            </div>`;
         } else {
-            elencoMasculino.innerHTML += `
-
-            <div id="jogador${indice}" onclick="salvarInformacoes(${indice})">
-                <h1>${jogador["nome"]}</h1>
-                <img src="${jogador["imagem"]}">
-            </div>
-    
-            `;
+            emasculino.innerHTML += `
+            <div id="jogador${index}" onclick="infoAtleta(${index})">
+                <h4>${atleta["nome"]}</h4>
+                <img src="${atleta["imagem"]}">
+            </div>`;
         }
-        
    })
 }
 
 
 
-
-
-function salvarInformacoes(indiceJogador) {
-    const jogador = jogadores[indiceJogador];
+function infoAtleta(indexJogador) {
+    const jogador = jogadores[indexJogador];
     console.log('falhou')
     localStorage.setItem('@Nome', jogador.nome)
     localStorage.setItem('@Imagem', jogador.imagem)
@@ -51,7 +37,6 @@ function salvarInformacoes(indiceJogador) {
     localStorage.setItem('@NomeCompleto', jogador.nome_completo)
     localStorage.setItem('@Nascimento', jogador.nascimento)
     localStorage.setItem('@Altura', jogador.altura);
-
 
     window.location.href = './detalhes.html'
 }

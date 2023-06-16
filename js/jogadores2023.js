@@ -1,7 +1,7 @@
 const jogadores = [
     {
         "elenco": "feminino",
-        "nome": "MARI ZANELLA",
+        "nome": "Mari Zanella",
         "posicao": "Goleira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/mari-zanella.png",
         "descricao": "Mari iniciou sua carreira vestindo a camisa do Foz Cataratas e, logo em seguida, passou pela equipe do Santos. Pelo Internacional conquistou os títulos do Brasileiro sub-16 e 20, e o Gauchão sub-18. Ainda pela equipe colorada, fez sua estreia na categoria profissional, tornando-se a goleira mais jovem a disputar o Campeonato Brasileiro em 2022. Em seu início no Botafogo, foi convocada pela primeira vez para a Seleção Brasileira sub-20.",
@@ -11,7 +11,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "INGRID SABINO",
+        "nome": "Ingrid Sabino",
         "posicao": "Goleira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/ingrid-sabino.png",
         "descricao": "A goleira possui uma forte ligação com o futebol desde pequena. Assim como a maioria, Ingrid iniciou sua trajetória jogando com os meninos na rua. Como sempre se destacou entre os demais, passou a disputar campeonatos amadores espalhados pelo Rio até passar pela peneira realizada pelo Botafogo em 2020, onde foi aprovada e escolhida para fazer parte das Gloriosas.",
@@ -21,7 +21,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "YASMIM",
+        "nome": "Yasmin",
         "posicao": "goleira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/yasmin.png",
         "descricao": "A arqueira se destaca pela boa imposição física, experiência e muita técnica. Yasmim é a responsável por fechar o gol das Gloriosas e por grandes defesas.",
@@ -31,7 +31,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "KELLY",
+        "nome": "Kelly",
         "posicao": "goleira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/chiavaro.png",
         "descricao": "Nascida no Canadá e com nacionalidade italiana, Kelly iniciou sua carreira nos Estados Unidos antes de desembarcar em solo europeu. Em 2022 a goleira disputou três partidas pela Seleção Italiana de beach soccer, pela Eurocopa da modalidade. Chiavaro chega no Botafogo para somar com sua segurança nas jogadas e muita técnica.",
@@ -41,7 +41,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "BRUNA SOUZA",
+        "nome": "Bruna Souza",
         "posicao": "Lateral-direita",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/bruna.png",
         "descricao": "Apaixonada por futebol desde criança, Bruna iniciou sua trajetória jogando com os meninos. Foram 5 anos fazendo parte de escolinhas até chegar ao Centro Olímpico. Lateral voluntariosa, de muita força e de extrema regularidade. Chegou ao Glorioso em agosto de 2018, conquistou o acesso para a série A1 em 2020 e dois títulos cariocas nos últimos anos.",
@@ -51,7 +51,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "LUANA",
+        "nome": "Luana",
         "posicao": "lateral-direita",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/luana.png",
         "descricao": "Luana é uma lateral com características ofensivas, excelente nos cruzamentos e muito disciplinada taticamente. Com ela, disposição nunca falta em campo.",
@@ -61,7 +61,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "JÉSSICA BAHIA",
+        "nome": "Jéssica Bahia",
         "posicao": "Lateral-direita",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/jessica-bahia.png",
         "descricao": "Jéssica chama a atenção na lateral-direita por sua velocidade e agilidade. Iniciou sua trajetória no campo mais tradicional das crianças: a rua. Incentivada pelo ex-treinador e pela família, passou por um teste no São Francisco do Conde (BA), seu primeiro clube. A lateral chega ao Botafogo após duas temporadas no Fluminense.",
@@ -71,7 +71,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "CHAI",
+        "nome": "Chai",
         "posicao": "Lateral-esquerda",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/chai.png",
         "descricao": "Lateral esquerda de técnica apurada, comprometida com a equipe e diferenciada nas bolas paradas. Chai está em sua terceira temporada no Glorioso e faz parte do grupo das atletas que conquistaram o acesso para a série A1 em 2020. A atleta é peça essencial da equipe.",
@@ -81,7 +81,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "SANDRA",
+        "nome": "Sandra",
         "posicao": "Zagueira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/sandra.png",
         "descricao": "Sandra chegou ao Botafogo em 2019 e é uma das atletas que faz parte do primeiro time formado pelo Clube. Revelada pelo São Bernardo, equipe de sua cidade natal, a zagueira seguiu encantando e mostrando seu futebol mundo a fora. Ao chegar no Glorioso, a atleta conquistou o acesso para a série A1 em 2020 e dois títulos cariocas.",
@@ -91,7 +91,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "KÁREN",
+        "nome": "Káren",
         "posicao": "Zagueira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/karen.png",
         "descricao": "Karen se destaca na zaga Gloriosa pelo seu cabeceio e garra nas disputas de bola. A atleta conta com passagens em clubes nacionais e internacionais, além de fazer parte do elenco que garantiu o acesso para a série A1 na temporada 2020. No ano de 2022, a zagueira conquistou o segundo título Carioca com o Glorioso.",
@@ -101,7 +101,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "THAMIRES",
+        "nome": "Thamires",
         "posicao": "Zagueira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/thamires.png",
         "descricao": "Identificada com o clube desde o berço, representa a torcida dentro de campo com sua garra e técnica. Durante sua carreira, a zagueira defendeu diferentes clubes do cenário nacional que somaram em sua bagagem na modalidade. Thamires conta com um título carioca em sua passagem pelo Vasco e na terceira temporada seguida pelo Botafogo, a atleta soma dois títulos estaduais.",
@@ -111,7 +111,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "JANA QUEIROZ",
+        "nome": "Jana Queiroz",
         "posicao": "Zagueira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/jana-queiroz.png",
         "descricao": "Jana Queiroz iniciou sua carreira aos 14 anos no futsal em sua cidade natal e, ao realizar uma peneira, iniciou sua carreira no Santos, onde fez a transição para o campo. Ainda no clube paulista, a zagueira recebeu sua primeira convocação para a Seleção Brasileira Sub-20, onde foi campeã sul-americana. A atleta possui passagens pela Europa e por outros clubes do Brasil.",
@@ -121,7 +121,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "NALON",
+        "nome": "Nalon",
         "posicao": "zagueira",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/nalon.png",
         "descricao": "Após período na categoria Sub-20 das Gloriosas, a zagueira reforça a equipe principal e tem como principal característica a sua força no combate contra as adversárias.",
@@ -131,7 +131,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "JU SANTOS",
+        "nome": "Ju Santos",
         "posicao": "Volante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/ju-santos.png",
         "descricao": "Ju Santos chegou ao Botafogo em 2022 para reforçar o meio-campo das Gloriosas e têm como características força física e bom passe. Possui diversos títulos nos clubes por onde passou e conquistou uma Libertadores com a Ferroviária.",
@@ -141,7 +141,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "TREYCI",
+        "nome": "Treyci",
         "posicao": "volante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/treyci.png",
         "descricao": "Treyci representa muita força e agilidade no meio de campo. A defensora também fez parte da campanha do Napoli no Campeonato Brasileiro da Série A2 em 2020, ano onde o time subiu para a primeira divisão.",
@@ -161,7 +161,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "DRIELY",
+        "nome": "Driely",
         "posicao": "meia",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/driely.png",
         "descricao": "Conhecida pela sua garra nas disputas de bola, a experiente volante é respeitada por toda a equipe. A jogadora fez parte do elenco do São Paulo na conquista do Campeonato Brasileiro A2.",
@@ -171,7 +171,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "CAMILA OLIVEIRA",
+        "nome": "Camila Oliveira",
         "posicao": "meia",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/camila.png",
         "descricao": "Camila chegou ao Botafogo em 2021 e agrega valor com sua técnica e visão de jogo. A meia marcou a temporada 2022 com um belíssimo gol de falta na final do Campeonato Carioca contra o Flamengo, que ajudou a dar o título de campeão para o Glorioso.",
@@ -181,7 +181,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "VITORINHA",
+        "nome": "Vitorinha",
         "posicao": "meia",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/vitorinha.png",
         "descricao": "A atleta chegou ao Glorioso em 2022 para agregar a equipe com sua técnica. Vitorinha é o tipo de volante clássica com uma visão apurada, assim ela comanda o meio-campo alvinegro.",
@@ -191,7 +191,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "MAYARA VAZ",
+        "nome": "Mayara Vaz",
         "posicao": "Meia atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/mayara-vaz.png",
         "descricao": "Conhecida como o motorzinho da equipe, Mayara possui agilidade e velocidade com a bola nos pés. Meia experiente, possui passagem em clubes importantes no Brasil e pela China.",
@@ -201,7 +201,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "ELISA",
+        "nome": "Elisa",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/elisa.png",
         "descricao": "Elisa iniciou sua trajetória no futsal, a transição para o campo ocorreu na sua ida para o Kindermann. Com o incentivo da família, a atacante seguiu buscando maiores objetivos. Ela se destaca pela sua inteligência, mobilidade e forte finalização",
@@ -211,7 +211,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "VÂNIA",
+        "nome": "Vânia",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/vania.png",
         "descricao": "Vânia iniciou sua trajetória no Menina Olímpica, projeto social localizado no Maranhão e chegou ao Botafogo em 2022 para fazer parte da equipe Sub-20. A atleta se destaca pela sua velocidade e boa finalização.",
@@ -221,7 +221,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "KÉLEN",
+        "nome": "Kélen",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/kelen.png",
         "descricao": "A trajetória de Kelen no futebol iniciou em um campo de terra e de pés descalços, assim como a maioria das atletas. A atacante se destaca pela sua velocidade, habilidade, cabeceio e finalização. A atleta chegou ao Botafogo no ano de 2019, conquistando o acesso para a série A1 em 2020 e conta com dois títulos cariocas.",
@@ -231,7 +231,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "MAISA",
+        "nome": "Maisa",
         "posicao": "atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/maisa.png",
         "descricao": "A atacante iniciou sua trajetória no Inter de Limeira. Depois de se destacar na equipe do interior paulista, a atleta passou pela Ferroviária, em 2019, onde jogou nos últimos quatro anos. Maísa chega ao Botafogo para reforçar o ataque para a temporada de 2023, se destaca pela sua velocidade, agilidade e boa finalização.",
@@ -241,7 +241,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "KAMILLA",
+        "nome": "Kamilla",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/kamilla.png",
         "descricao": "Kamilla se destaca na equipe pela sua garra em campo, boa técnica e visão de jogo. A atleta está no Botafogo desde 2021 e um dos seus jogos marcantes foi a final do Campeonato Carioca de 2022, onde marcou um gol fora da área, abrindo o placar na conquista sobre o Flamengo.",
@@ -251,7 +251,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "LARISSA NASCIMENTO",
+        "nome": "Larissa Nascimento",
         "posicao": "atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/larissa-nascimento.png",
         "descricao": "Atleta em formação que tem como principais características a velocidade e obediência tática. Larissa surgiu em uma escolinha no bairro da Vila Kennedy (RJ). Neste período, disputou a Taça das Favelas e recebeu a proposta de teste para o Vasco, clube onde iniciou sua caminhada aos 15 anos de idade. Em 2022, chegou ao Botafogo para a equipe Sub-20, onde conquistou o título inédito da categoria e hoje incorpora a categoria principal.",
@@ -261,7 +261,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "THAYNARA",
+        "nome": "Thaynara",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/thaynara.png",
         "descricao": "Thaynara se destaca pela sua velocidade e boa finalização. A jogadora se apresenta na temporada 2023 das Gloriosas como uma das armas ofensivas da categoria.",
@@ -271,7 +271,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "VALÉRIA",
+        "nome": "Valéria",
         "posicao": "atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/valeria.png",
         "descricao": "Atacante de muita velocidade e agilidade para buscar a finalização. Valéria é do interior do Acre e iniciou sua carreira vestindo a camisa do Assermurb por 8 anos, após esse período passou por diversos clubes no Brasil até chegar na Europa, onde atuou por 4 temporadas. Em 2022, chegou ao Botafogo e agrega valor à equipe.",
@@ -281,7 +281,7 @@ const jogadores = [
     },
     {
         "elenco": "feminino",
-        "nome": "DRIKA",
+        "nome": "Drika",
         "posicao": "Atacante",
         "imagem": "https://botafogo.com.br/images/futebol-feminino/perfil/drika.png",
         "descricao": "Natural do Maranhão, Drika se destaca em campo pela sua velocidade e agilidade em transitar na defesa adversária. O chute forte também é uma característica marcante em seu jogo.",
