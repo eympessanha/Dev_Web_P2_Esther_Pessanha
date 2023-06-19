@@ -1,4 +1,4 @@
-@media screen and (max-width:727px){
+@media screen and (max-width:768px){
     body {
         background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
     }
@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (min-width:728px){
+@media screen and (min-width:769px){
     body {
         background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
     }
@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px ){
     body {
         background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
     }
