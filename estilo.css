@@ -1,43 +1,122 @@
-body {
-    background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
+@media screen and (max-width:727px){
+    body {
+        background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
+    }
+
+    #detalhes {
+       width:50%;
+       margin:auto;
+    }
+
+    .padrao {
+       color:white;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+       align-items: center;
+    }
+
+    img{
+       width: 8em;
+       border-radius: 100px;
+       margin: auto;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        max-width: 100%;
+    }
+
+    input {
+     display: block;
+      background-color: white;
+       color: black;
+      border-radius: 30%;
+      border-color: black;
+      width: 5em;
+      margin: auto;
+    }
 }
 
-#detalhes {
-    width:50%;
-    margin:auto;
+@media screen and (min-width:728px){
+    body {
+        background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
+    }
+
+    #detalhes {
+       width:50%;
+       margin:auto;
+    }
+
+    .padrao {
+       color:white;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+       align-items: center;
+    }
+
+    img{
+       width: 8em;
+       border-radius: 100px;
+       margin: auto;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        max-width: 100%;
+    }
+
+    input {
+     display: block;
+      background-color: white;
+       color: black;
+      border-radius: 30%;
+      border-color: black;
+      width: 5em;
+      margin: auto;
+    }
 }
 
-.padrao {
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+@media screen and (min-width:1024px){
+    body {
+        background-image: url(https://besthqwallpapers.com/Uploads/22-10-2018/69572/thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.jpg);
+    }
 
-img{
-    width: 8em;
-    border-radius: 100px;
-    margin: auto;
-}
+    #detalhes {
+       width:50%;
+       margin:auto;
+    }
 
-#efeminino{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
+    .padrao {
+       color:white;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+       align-items: center;
+    }
 
-#emasculino{
-    display: flex;
-    flex-wrap: wrap;
-}
+    img{
+       width: 8em;
+       border-radius: 100px;
+       margin: auto;
+    }
 
-input {
-    display: block;
-    background-color: white;
-    color: black;
-    border-radius: 30%;
-    border-color: black;
-    width: 5em;
-    margin: auto;
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        max-width: 100%;
+    }
+
+    input {
+     display: block;
+      background-color: white;
+       color: black;
+      border-radius: 30%;
+      border-color: black;
+      width: 5em;
+      margin: auto;
+    }
 }
